@@ -11,7 +11,7 @@ import io.guw.rometools.mrss.MediaModuleWithOldNamespaceConstants;
 
 public class MediaModuleGeneratorWithOldNamespace extends MediaModuleGenerator {
 
-	private static final Namespace NS = Namespace.getNamespace("media", MediaModuleWithOldNamespaceConstants.URI);
+	private static final Namespace NS = Namespace.getNamespace("mediaold", MediaModuleWithOldNamespaceConstants.URI);
 	private static final Set<Namespace> NAMESPACES = Collections.singleton(NS);
 
 	@Override
